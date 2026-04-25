@@ -1,5 +1,5 @@
 {
-	"name": "obisidian-generic-helpers",
+	"name": "obsidian-generic-helpers",
 	"version": "1.0.0",
 	"description": "A grab-bag of small, useful Obsidian commands that don't justify their own dedicated plugin.",
 	"main": "main.js",

@@ -33,7 +33,7 @@ You can install this plugin right now using the [BRAT](https://github.com/TfTHac
 
    ![BRAT beta plugin list](assets/brat_example_beta_plugin_list.png)
 
-4. In the overlay, enter this plugin's repository: `https://github.com/saltyfireball/obisidian-generic-helpers` (or just `saltyfireball/obisidian-generic-helpers`)
+4. In the overlay, enter this plugin's repository: `https://github.com/saltyfireball/obsidian-generic-helpers` (or just `saltyfireball/obsidian-generic-helpers`)
 
    ![BRAT add beta plugin](assets/brat_example_beta_modal.png)
 
@@ -45,7 +45,7 @@ You can install this plugin right now using the [BRAT](https://github.com/TfTHac
 
 ### Manual
 
-1. Download the latest release from the [Releases](https://github.com/saltyfireball/obisidian-generic-helpers/releases) page
+1. Download the latest release from the [Releases](https://github.com/saltyfireball/obsidian-generic-helpers/releases) page
 2. Copy `main.js` and `manifest.json` into your vault's `.obsidian/plugins/sfb-generic-helpers/` directory
 3. Enable the plugin in **Settings > Community plugins**
 

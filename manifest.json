@@ -1,0 +1,9 @@
+{
+	"id": "sfb-generic-helpers",
+	"name": "Generic Helpers",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "A grab-bag of small, useful commands that don't justify their own dedicated plugin. Currently includes increase/decrease heading level commands.",
+	"author": "saltyfireball",
+	"isDesktopOnly": false
+}

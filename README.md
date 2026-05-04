@@ -13,10 +13,12 @@ An [Obsidian](https://obsidian.md) plugin that collects small, useful commands t
 ## How to Use
 
 1. Place the cursor on a line, or select multiple lines.
-2. Open the command palette (Ctrl/Cmd+P) and run **Decrease heading** or **Increase heading**.
+2. Open the command palette (Ctrl/Cmd+P) and run **Decrease heading**, **Increase heading**, or **Copy link to heading**.
 3. Optional: bind hotkeys for these commands under **Settings > Hotkeys**.
 
-When a selection spans multiple lines, the command runs against every line in the selection. **Decrease heading** skips non-heading lines; **Increase heading** turns non-heading lines into level-1 headings.
+When a selection spans multiple lines, the heading commands run against every line in the selection. **Decrease heading** skips non-heading lines; **Increase heading** turns non-heading lines into level-1 headings.
+
+**Copy link to heading** walks upward from the cursor to the nearest heading and copies a wikilink in the form `[[path/to/note#Heading|note]]` to the clipboard. If the cursor's line ends with `^block-id`, the link targets that block instead.
 
 ## Installation
 

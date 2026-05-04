@@ -6,7 +6,8 @@ An [Obsidian](https://obsidian.md) plugin that collects small, useful commands t
 
 - **Decrease heading** -- removes one `#` from the heading on the current line (or every line in the selection). `### Foo` -> `## Foo` -> `# Foo` -> `Foo`. Non-heading lines are left alone.
 - **Increase heading** -- adds one `#` to the start of the line. `Foo` -> `# Foo` -> `## Foo` -> `### Foo`, capped at `######` (Markdown's maximum heading depth).
-- Works on the cursor's line by default and on the full selection when one is active.
+- **Copy link to heading** -- copies an Obsidian wikilink to the heading (or block id) the cursor is under, formatted as `[[path/to/note#Heading|note]]`. If the cursor's line ends with a `^block-id`, the link targets that block instead of the nearest heading.
+- Works on the cursor's line by default; the heading commands also operate on the full selection when one is active.
 - Lightweight with no external dependencies.
 
 ## How to Use

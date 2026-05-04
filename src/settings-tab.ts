@@ -40,6 +40,15 @@ export class GenericHelpersSettingTab extends PluginSettingTab {
 				"Lines already at level 6 are left alone.",
 			);
 
+		new Setting(containerEl)
+			.setName("Copy link to heading")
+			.setDesc(
+				"Copies an Obsidian wikilink to the heading the cursor is currently under, formatted as " +
+				"[[path/to/note#Heading|note]]. If the cursor's line ends with a block id (^abc), the link " +
+				"targets that block instead of the nearest heading. Falls back to a plain note link when " +
+				"no heading or block is found.",
+			);
+
 		new Setting(containerEl).setName("How to use").setHeading();
 		const howDesc = containerEl.createEl("div", {
 			cls: "setting-item-description",
